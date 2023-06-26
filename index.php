@@ -5,10 +5,13 @@
         <title>Doubt</title>
     </head>
 <body>
-    <form action="" method="post">
+    <form action="./Login/Login.php" method="POST">
         <p>
-            <input type="text" name="email">
-            <input type="text" name="password">
+            email:
+                <input type="text" name="email">
+            senha:
+                <input type="text" name="password">
+                
             <input type="submit" value="logar">
         </p>
 
